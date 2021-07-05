@@ -8,9 +8,9 @@ h1{
 .pink-color{
     color:rgb(216, 12, 80)
 }
-section{
+.flexible-container{
     display: flex;
-    margin-bottom:130px
+    margin-bottom:80px
 }
 .half-width{
     width:50%;
@@ -42,5 +42,59 @@ section{
     color:white;
     padding:10px 45px;
     border-radius: 15px;
+}
+.experience-area{
+    margin:5px 80px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
+.experience-area h1{
+    text-align: center;
+}
+.chocolate-color{
+    color:chocolate;
+}
+.third-width{
+    width:25%;
+    padding:3%;
+    margin: 3%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+.third-width img{
+    width:100%;
+}
+.checking-feild{
+    background-image: url(images/Group_33094_1.png);
+    background-size:800px;
+    background-repeat: no-repeat;
+    margin-left: 20%;
+    margin-right: 24%;
+    border-radius: 20px;
+}
+.chat-box{
+    width:15%;
+    padding-top: 80px;
+    padding-left: 180px;
+}
+.chat-box a{
+    text-decoration: none;
+    background-color:crimson;
+    color:black;
+    border-radius: 25px;
+    padding:10px 25px;
+}
+footer{
+    text-align: center;
+}
+footer img{
+    width:3%
+}
+footer p{
+    color: forestgreen;
+}
+footer h2{
+color:indigo
 }
 

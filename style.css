@@ -10,26 +10,37 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom:130px
 }
 .half-width{
     width:50%;
-    padding-left: 5%;
+    padding-left: 3%;
 }
 .half-width img{
-    width:75%;
+    width:80%;
 }
 .hire-button{
-    color:white;
     text-decoration: none;
     background-image: linear-gradient(green,tomato);
-    padding:10px 20px;
-    border-radius: 10px; 
+    color:white;
+    padding:10px 50px;
+    font-weight: 500;
+    border-radius: 15px; 
 }
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
 .dream-big{
-    
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right bottom;
+}
+.download-button{
+    text-decoration: none;
+    background-image: linear-gradient(purple, rgb(4, 52, 71));
+    color:white;
+    padding:10px 45px;
+    border-radius: 15px;
 }
 
